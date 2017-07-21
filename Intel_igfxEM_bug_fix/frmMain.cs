@@ -253,5 +253,11 @@ namespace Intel_igfxEM_bug_fix
             if (IsHidden)
             this.Hide();
         }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            frmSettings Settings = new frmSettings();
+            Settings.Show();
+        }
     }
 }
